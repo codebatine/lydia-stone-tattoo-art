@@ -14,3 +14,4 @@ Vem är scrum master?
 Rasmus
 Underskrifter av samtliga gruppmedlemmar
 Rasmus Wersäll
+Hedi Gardi

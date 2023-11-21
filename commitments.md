@@ -15,3 +15,4 @@ Rasmus
 Underskrifter av samtliga gruppmedlemmar
 Rasmus Wersäll
 Hedi Gardi
+Sanjin Đumišić

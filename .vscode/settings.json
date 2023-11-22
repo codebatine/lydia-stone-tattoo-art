@@ -1,3 +1,22 @@
 {
-  "githubPullRequests.ignoredPullRequestBranches": ["main"]
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/**/node_modules/**",
+        "/./vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+
+    "githubPullRequests.pullBranch": "never",
+    "liveSassCompile.settings.showOutputWindowOn": "Warning",
+    "liveSassCompile.settings.autoprefix": [
+        
+    ]
 }

@@ -1,15 +1,37 @@
 @media screen and (min-width: 1024px) {
 
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-
   .content section {
-    width: 70%;
-    display: block;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .content section:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  
+  .content section .text {
+    width: 40%;
+    margin: auto;
+  }
+  
+  .content section p,
+  .content section li {
+    width: 70%;
+    margin: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .content section h2 {
+    font-size: 3rem;
+    width: 70%;
+  }
+  
+  .content section img {
+    width: 50%;
+    margin-top: 0;
   }
 
 }

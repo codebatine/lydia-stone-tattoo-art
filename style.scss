@@ -1,4 +1,6 @@
 @import 'scss/reset';
-@import 'scss/basic';
-@import 'scss/mobile';
-@import 'scss/desktop';
+@import 'scss/main';
+
+@media screen and (min-width: 1024px) {
+    @import 'scss/desktop';
+}

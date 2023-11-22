@@ -1,0 +1,34 @@
+input,
+.hamburger{
+    display: none;
+}
+
+.header-left{
+    width: 25%;
+}
+
+.header-right{
+    width: 75%;
+
+    .menu{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+
+
+nav{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    top: auto;
+    left: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    ul{
+        background-color: transparent;
+    }
+}

@@ -1,3 +1,5 @@
+@media screen and (max-width: 1023px) {
+
 .content {
   width: 100vw;
   height: auto;
@@ -7,9 +9,27 @@
 }
 
 .content p {
-  font-family: "Miltonian", sans-serif;
+  font-family: sans-serif;
+  width: 75%;
+  margin: 2rem 0 1rem;
+}
+
+.content li {
+  font-family: sans-serif;
+  width: 65%;
+  margin: 1rem;
 }
 
 .content h2 {
-  font-size: 2rem;;
+  font: 2rem "Miltonian Tattoo", sans-serif;
+
+  text-align: center;
+}
+
+.content section  img {
+  width: 70%;
+  height: auto;
+  margin-top: 2rem;
+}
+
 }

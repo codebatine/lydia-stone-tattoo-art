@@ -146,6 +146,7 @@ nav{
             }
         }
     }
+}
 
 footer {
     display: flex;
@@ -153,4 +154,7 @@ footer {
     padding: 5px;
     background-color: #45a1ff;
     color: #fff;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
   }

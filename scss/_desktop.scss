@@ -1,3 +1,40 @@
+@media screen (min-width: 1024px) {
+
+  .content section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .content section:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  
+  .content section .text {
+    width: 40%;
+    margin: auto;
+  }
+  
+  .content section p,
+  .content section li {
+    width: 70%;
+    margin: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .content section h2 {
+    font-size: 3rem;
+    width: 70%;
+  }
+  
+  .content section img {
+    width: 50%;
+    margin-top: 0;
+  }
+
+=======
 input,
 .hamburger{
     display: none;
@@ -31,4 +68,5 @@ nav{
     ul{
         background-color: transparent;
     }
+
 }

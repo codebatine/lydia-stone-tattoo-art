@@ -1,7 +1,53 @@
-body{
+
+body {
+    font: 1rem "Miltonian Tattoo", sans-serif;
     display: flex;
     position: relative;
-}
+  }
+  
+  .content {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: justify;
+  }
+
+  .content .text {
+    /* existing styles */
+    margin: auto;
+    width: 90%;
+    align-items: center; /* Add this line */
+  }
+
+  .content .text p {
+    font-family: sans-serif;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    align-items: center;
+  }
+  
+  .content .text li {
+    font-family: sans-serif;
+    margin: 1rem;
+    align-items: center;
+  }
+  
+  .content .text h2 {
+    font: 2rem "Miltonian Tattoo", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .content section img {
+   
+    height: auto;
+    margin-top: 2rem;
+    align-items: center;
+  }
 
 main{
     position: absolute;
@@ -158,3 +204,4 @@ footer {
     width: 100vw;
     bottom: 0;
   }
+

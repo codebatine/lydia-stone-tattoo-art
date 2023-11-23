@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen (min-width: 1024px) {
 
   .content section {
     display: flex;
@@ -33,5 +33,40 @@
     width: 50%;
     margin-top: 0;
   }
+
+=======
+input,
+.hamburger{
+    display: none;
+}
+
+.header-left{
+    width: 25%;
+}
+
+.header-right{
+    width: 75%;
+
+    .menu{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+
+
+
+nav{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    top: auto;
+    left: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    ul{
+        background-color: transparent;
+    }
 
 }

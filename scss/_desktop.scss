@@ -1,4 +1,4 @@
-  .content section {
+  .content section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,28 +6,28 @@
     text-align: left;
   }
   
-  .content section:nth-child(odd) {
+  .content section:nth-child(odd){
     flex-direction: row-reverse;
   }
   
-  .content section .text {
+  .content section .text{
     width: 40%;
     margin: auto;
   }
   
   .content section p,
-  .content section li {
+  .content section li{
     width: 70%;
     margin: 1rem;
     line-height: 1.5rem;
   }
   
-  .content section h2 {
+  .content section h2{
     font-size: 3rem;
     width: 70%;
   }
   
-  .content section img {
+  .content section img{
     width: 50%;
     margin-top: 0;
   }
@@ -50,7 +50,6 @@ input,
     }
 }
 
-
 nav{
     visibility: visible;
     opacity: 1;
@@ -60,9 +59,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
 
-
     ul{
         background-color: transparent;
     }
-
 }
